@@ -9,7 +9,7 @@ if (acceso) {
     console.log("Usuario no reconocido ");
 }
 export function procesarReserva(cliente: string, total: number): string {
-    console.log(`Procesando reserva para ${cliente}.`);
+    console.log(`Procesando reserva para ${cliente}...`);
     let descuento = 0;
     let puntosGanados = Math.floor(total / 10);
 
